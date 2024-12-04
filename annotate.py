@@ -1312,24 +1312,8 @@ class Annotation():
         short = open('result_short.txt', 'w')
         # ent = open('typeDetectWDC.txt', 'w')
         eTypePred = 0
-        wikitable = "dataset/wiki_annotated3.txt"
-        merged_units = "dataset/wiki_merged_units.txt"
-        wiki_data_all_with_units = "dataset/wiki_annotated_with_unique_units.txt"
-        wiki_data_all_with_two_different_units = "dataset/wiki_annotated_with_two_different_units.txt"
-        wdc = "dataset/wdc_annotated.txt"
-        tdv = "dataset/T2Dv2_v2.txt"
-        tdv_v4 = "dataset/T2Dv2_v4.txt"
-        single_unit_dataset = "dataset/single_unit_dataset.txt"
         easy_dataset = "dataset/new_easy_dataset.txt"
-        medium_dataset = "dataset/new_medium_dataset.txt"
-        hard_dataset = "dataset/new_hard_dataset.txt"
-        four_unit_dataset = "dataset/new_four_unit_dataset.txt"
-        five_unit_dataset = "dataset/new_five_unit_dataset.txt"
-        three_unit_dataset = "dataset/new_three_unit_dataset.txt"
-        distance_function_dataset = "dataset/distance_function_dataset.txt"
-        mixed_number_of_units_dataset = "dataset/mixed_number_of_units_dataset.txt"
-        khoroji_dorost = open("results-units/khoroji_dorost.txt", "a")
-        with open(medium_dataset, 'r') as tbf:
+        with open(easy_dataset, 'r') as tbf:
             i = -1
             # for i in range(110): line = tbf.readline().strip()
             line = tbf.readline().strip()
